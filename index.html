@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home — Serenity Stay</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="logo" href="index.html"><img src="assets/icons/logo.svg" alt=""><span><b>Serenity Stay</b><small>BOUTIQUE GUEST HOUSE</small></span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <div class="nav-links" id="menu"><a href="index.html" aria-current="page">Home</a><a href="rooms.html">Rooms</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a class="btn btn--light" href="contact.html">Book Now</a></div>
+  </nav>
+</header>
+<main>
+<section class="hero hero-home">
+  <img class="hero__img" src="assets/images/new header.png" alt="Infinity pool overlooking the sea at sunset">
+  <p class="hero__index" aria-hidden="true">01 /<br>04<span>STAY · RELAX · RECONNECT</span></p>
+  <div class="hero__content" style="padding-right:var(--pad)">
+    <p class="eyebrow">SERENITY STAY</p>
+    <h1>More Than<br>a Stay<br><em>A Feeling</em></h1>
+    <p>Serenity Stay is a boutique guest house where modern comfort meets natural beauty. Unwind, explore and feel at home.</p>
+    <a class="btn btn--light" href="rooms.html">Explore Our Rooms <i data-lucide="arrow-right"></i></a>
+  </div>
+  <form class="booking" data-form data-success="Thank you — we will confirm availability shortly." novalidate>
+    <h2>Check Availability</h2>
+    <label class="field">Check In<input type="date" required></label>
+    <label class="field">Check Out<input type="date" required></label>
+    <label class="field">Guests<select><option>1 Adult</option><option selected>2 Adults</option><option>3 Adults</option><option>4 Adults</option></select></label>
+    <button class="btn btn--solid btn--block" type="submit">Book Your Stay <i data-lucide="arrow-right"></i></button>
+    <p class="form-note"></p>
+  </form>
+</section>
+<section class="wrap intro">
+  <div>
+    <h2>A Hidden Gem<br>by the Coast</h2>
+    <p class="lead">Wake up to ocean views, enjoy locally inspired cuisine and experience heartfelt hospitality at our boutique guest house.</p>
+    <div class="rule"></div>
+    <a class="link-arrow" href="gallery.html">Discover Our Story <i data-lucide="arrow-right"></i></a>
+  </div>
+  <figure class="intro__media"><img src="assets/images/hidden.png" alt="Guest house terrace above the sea"><span class="play"><i data-lucide="play"></i></span><figcaption>A Glimpse of Serenity — Watch our story (1:12)</figcaption></figure>
+</section>
+<section class="wrap section"><ul class="features">
+  <li><i data-lucide="bed-double"></i><b>Ocean View Rooms</b><span>with Private Terraces</span></li>
+  <li><i data-lucide="utensils"></i><b>Fresh &amp; Local Cuisine</b><span>Seasonal and sourced nearby</span></li>
+  <li><i data-lucide="flower-2"></i><b>Relaxing Spa &amp; Wellness</b><span>Treatments to restore</span></li>
+  <li><i data-lucide="heart-handshake"></i><b>Personalized Guest Experience</b><span>Attentive, never intrusive</span></li>
+</ul></section>
+<section class="cta-band"><img class="hero__img" src="assets/images/gallery1.png" alt=""><div class="wrap"><h2>Your Perfect<br>Getaway</h2><p>Luxury, privacy, and the coast — all in one place.</p><a class="btn btn--light" href="contact.html">Book Your Stay <i data-lucide="arrow-right"></i></a></div></section>
+</main>
+<footer class="site-footer">
+  <a class="logo" href="index.html"><img src="assets/icons/logo.svg" alt=""><span><b>Serenity Stay</b><small>BOUTIQUE GUEST HOUSE</small></span></a>
+  <p class="tag">Relax · Explore · Belong</p>
+  <nav aria-label="Footer"><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+  <small>© 2025 Serenity Stay. All rights reserved.</small>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.383.0/dist/umd/lucide.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
